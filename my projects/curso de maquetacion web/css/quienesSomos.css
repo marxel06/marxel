@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: url(/img/template02.jpg);
+    background-position: top center;
+    height: 1080px;
+}

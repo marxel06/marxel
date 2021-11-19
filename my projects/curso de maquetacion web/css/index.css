@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: url(/img/template01.jpg);
+    background-position: top center;
+    height: 1080px;
+}
+
+header{
+    position:  relative;
+    margin: auto;
+    width: 1000px;
+    height: 83px;
+    background: rgba(255,255,0,.5)
+}
