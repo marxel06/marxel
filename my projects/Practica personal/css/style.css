@@ -27,13 +27,10 @@ body{
     width: 100%;
     padding: 0.5rem;
     margin: 0% auto;
-    z-index: 10;
-
-    
-
-    
+    z-index: 10;  
 
 }
+
 
 
 .menu-navegacion  a{
@@ -86,7 +83,7 @@ body{
 
 .titulos{
     text-align: center;
-    margin-top: 22px;
+    margin-top: 45px;
     font-size: 2.7rem;
     color: #fff;
     font-family: serif;
@@ -112,7 +109,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 480px;
+    height: 100%;
     
 }
 
@@ -135,14 +132,13 @@ body{
 }
 
 .info-mi{
-    width: 88%;
+    width: 100%;
     text-align: center;
     padding: 0 40px;
     font-weight: 400;
     line-height: 33px;
     margin: auto;
-    
-    
+  
 }
 
 .titulo-personal{
@@ -166,7 +162,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 480px;
+    
 }
 
 .cont-servicio{
@@ -207,6 +203,54 @@ body{
 
 .contenedor-portafolio > .img-portafolio:hover{
     transform: scale(1.1);
+}
+
+
+.imagen-light{
+    position: fixed;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+    
+    
+}
+
+.show{
+    transform: translate(0);
+    z-index: 20;
+    overflow: scroll;
+}
+
+.agregar-imagen{
+    object-fit: contain;
+    width: 800px;
+    height: 800px;
+    max-height: max-content;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: transform .3s .2s;
+}
+
+
+.showImage{
+    transform: scale(1.2);
+   
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
 }
 
 
@@ -294,5 +338,158 @@ footer{
 
 @media screen and (max-width: 766px) {
     .menu-mobile{
+        display: block;
+        position: fixed;
+        width: 40px;
+        background: #fff;
+        color: #fff;
+        cursor: pointer;
+        z-index: 10;
+        top: 20px;
+        right: 20px;
+        border-radius: 20%;   
+        
     }
+
+    
+
+    .menu-navegacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        transform: translate(100%);
+        transition: transform .2s step-start;
+
+    }
+
+    .spread{
+        transform: translate(0);
+    }
+
+    .menu-navegacion a{
+        display: block;
+        padding-top: 5px;
+        text-align: center
+    }
+
+    .titulo-head, .subtitulo-head{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        letter-spacing: 1rem;
+    }
+
+    .contenedor-personal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+    }
+
+    .contenedor-personal img{
+        width: 70%;
+
+    }
+
+    .sobre-mi{
+        width: 90%;
+        margin-bottom: 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background: #fff;
+        align-items: center;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+        
+        
+    }
+    
+    .info-mi{
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        line-height: 33px;
+        
+        
+      
+    }
+
+    .subtitulo-personal{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .servicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    .cont-servicio{
+        width: 40%;
+        justify-content: center;
+    }
+
+    .cont-servicio img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .n-servicio{
+        font-size: 1.2rem;
+        text-align: center;
+        align-content: space-around;
+    }
+
+    .portafolio{
+        padding-top: 10px;
+    }
+
+    .contenedor-portafolio > .img-portafolio:hover{
+        transform: none;
+    }
+
+    .img-portafolio{
+        
+        width: 35%;
+    }
+
+    .subtitulos{
+        width: 77vh;
+        
+        
+    }
+
+    .agregar-imagen{
+        object-fit: contain;
+        width: 700px;
+        height: 700px;
+        
+        border-radius: 10px;
+    }
+    
+    
+  
+
+    .footer-content{
+        width: 50%;
+    }
+
+    .titulo-cont{
+        margin-left: 10px;
+    }
+
+
+
+    .correo{
+        width: 80vh;
+        font-size: 1rem;
+    }
+
+
 }

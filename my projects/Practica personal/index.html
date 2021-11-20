@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/medias.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/medias.css">
     <link
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
       rel="stylesheet"/>
@@ -15,15 +15,14 @@
   </head>
   <body>
       <header class="header" id="inicio">
-        <img src="/img/hamburguesa.svg" alt="" class="menu-mobile" />
-        <nav class="menu-navegacion">
+          <img src="img/hamburguesa.svg" alt="" class="menu-mobile" />
+          <nav class="menu-navegacion menu">
             <a href="#inicio">Inicio</a>
             <a href="#sobre-mi">Personal</a>
             <a href="#servicio">Servicio</a>
             <a href="#portafolio">Portafolio</a>
             <a href="#contacto">Contacto</a>
         </nav>
-        <div class="space"></div>
         <div class="contenedor contenedor-img">
             <div class="contenedor head">
                 <h1 class="titulo-head">Desarrollo Web</h1>
@@ -36,7 +35,7 @@
           <section class="contenedor" id="sobre-mi">
               <h2 class="titulos">Sobre mi</h2>
               <div class="contenedor-personal">
-                  <img src="/img/yo.svg" alt="">
+                  <img src="img/yo.svg" alt="">
                   <div class="sobre-mi">
                       <div class="info-mi">
                           <h2 class="titulo-personal">Hola!</h2>
@@ -50,15 +49,15 @@
               <h2 class="titulos">Servicios</h2>
               <section class="servicio">
                   <div class="cont-servicio">
-                      <img src="/img/responsive.svg" alt="">
+                      <img src="img/responsive.svg" alt="">
                       <p class="n-servicio">Tener un sitio web bien optimizado para tablet y dispositivos mobiles es de los trabajos mas importantes ya que gracias a los dispositivos inteligentes los usuarios pueden navegar por la web sin dificultad </p>
                   </div>
                   <div class="cont-servicio">
-                    <img src="/img/developer.svg" alt="">
+                    <img src="img/developer.svg" alt="">
                     <p class="n-servicio">Puedo ayudarte a crear tu sitio web que se ajusta a tus necesidades implementando tecnologias de primer nivel.</p>
                 </div>
                 <div class="cont-servicio">
-                    <img src="/img/socialmedia.svg" alt="">
+                    <img src="img/socialmedia.svg" alt="">
                     <p class="n-servicio">Para una mejor experiencia a tus usuarios es importante implementar tus redes sociales favoritos</p>
                 </div>
               </section>
@@ -69,22 +68,26 @@
                   <h2 class="titulos">Portafolio</h2>
                   <p class="subtitulos">Estos son algunos de mis trabajos tanto proyectos realizados en clases como personales</p>
                   <div class="contenedor-portafolio">
-                    <img src="/img/1.png" alt="" class="img-portafolio"/>
-                    <img src="/img/2.png" alt="" class="img-portafolio" />
-                    <img src="/img/3.png" alt="" class="img-portafolio" />
-                    <img src="/img/4.png" alt="" class="img-portafolio" />
-                    <img src="/img/5.gif" alt="" class="img-portafolio" />
-                    <img src="/img/6.png" alt="" class="img-portafolio" />
+                    <img src="img/1.png" alt="" class="img-portafolio"/>
+                    <img src="img/2.png" alt="" class="img-portafolio" />
+                    <img src="img/3.png" alt="" class="img-portafolio" />
+                    <img src="img/4.png" alt="" class="img-portafolio" />
+                    <img src="img/5.gif" alt="" class="img-portafolio" />
+                    <img src="img/6.png" alt="" class="img-portafolio" />
                   </div>
               </div>
           </section>
+          <sectiom class="imagen-light">
+            <img src="img/close.svg" alt="" class="close" />
+            <img src="img/photo-1519389950473-47ba0277781c.jpg" alt="" class="agregar-imagen" />
+          </sectiom>
         </main>
 
-        <footer class="contenedor" id="contacto">
+        <footer class="contenedor" >
             <div class="titulo-cont">
                 <h3 class="titulos">Contacto</h3>
             </div>
-            <div class="contenedor footer-content">
+            <div class="contenedor footer-content" id="contacto">
               <a href="./" class="social-media-icon">
                   <i class="bx bxl-facebook"></i>
               </a>
@@ -99,7 +102,8 @@
                 <p>Tambien puedes contactarme por mi correo <br>marxel-mg@hotmail.com</p>
             </div>
             <div class="line"></div>
-            
         </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
   </body>
 </html>
