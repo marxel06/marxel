@@ -1,0 +1,367 @@
+
+@media screen and (max-width:991px){
+    html{
+        font-size: 55%;
+        
+    }
+
+    .header{
+        width: 99%;
+        max-width: 100%;
+    }
+    
+    .header .image-logo{
+        left: 40px;
+    }
+
+    .header .image-logo img{
+        width: 100%;
+    }
+
+    .header .hero{
+        width: 99%;
+        
+    }
+
+    .header .hero img{
+        width: 100%;
+    }
+
+    .header .heading-titulo{
+        width: 62%;
+        height: 380px;
+        
+    }
+
+
+
+    .section-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-1 .image-section{
+        display: block;
+        position: relative;
+        width: 80%;
+        left: 15rem;
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-1 .image-section img{
+        width: 100%;
+    }
+
+    .section-1 .article{
+        width: 80%;
+        box-shadow: none;
+        position: relative;
+        top: 15rem;
+        left: 20rem;
+        margin: 50px 0;
+    }
+    .section-1 .article h1{
+        width: 50%;
+        font-size: 5rem;
+        
+    }
+    .section-1 .article p{
+        width: 70%;
+        font-size: 3rem;
+    }
+    
+    .footer .footer-container .image-logo{
+        position: absolute;
+        top: 4rem;
+        left: 18rem;
+    }
+    
+    
+    .footer .footer-container .nav .links{
+        position: relative;
+        left: 5rem;
+        top: 11em;
+
+        
+    }
+    
+    .footer .footer-container .nav .links a{
+        color: #fff;
+        font-size: 2rem;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    
+    .footer .footer-container .nav .links a:hover{
+        border-bottom: 1px solid #fff;
+    }
+    
+    
+    .footer .footer-container .nav .links li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    
+    .footer .footer-container .nav .redes{
+        position: absolute;
+        right: 10rem;
+        top: 4rem;
+        
+    }
+    
+    .footer .footer-container .nav .redes li{
+        display: inline-block;
+        width: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    
+    .footer .footer-container .nav .redes li:hover{
+        border-bottom: 1px solid #fff;
+    }
+    
+    .footer .footer-container .nav .redes img{
+        width: 30px;
+        height:30px;
+    }
+    
+    .footer .footer-container p{
+        position: absolute;
+        margin-right: 10px;
+        right: 3em;
+        top: 11rem;
+        color: #fff;
+        font-size: 2em;
+        
+    }
+}
+
+
+@media (max-width:768px){
+    
+    .menu-btn{
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+    .menu-btn img{
+        width: 40px;
+    }
+
+    .header{
+        width: max-content;
+        
+        overflow: hidden;
+    }
+    .header .hero{
+        width: 103%;
+        
+    }
+
+    .header .hero img{
+        width: 100%;
+    }
+
+    .header .nav{
+        width: 100vh;
+        position: absolute;
+        top: 10px; 
+        right: -40px;
+        background: rgb(0, 0, 0);
+        right:-120%;
+    }
+    
+    .header .nav.active{
+        width: 100vh;
+        height: 111vh;
+        position: absolute;
+        top: 0px; 
+        right: -40px;
+        background: rgb(0, 0, 0);
+        left: 0%;
+        
+    }
+
+    .header .nav .links{
+        width: 80vh;
+        text-align: center;
+    }
+    .header .nav .links li{
+        display: block;
+        width: 300px;
+        height: 50px;
+        margin-top: 80px;
+        margin-left: 30rem;
+        padding-bottom: 0rem;
+       
+    }
+    .header .nav .links li:hover{
+        border-bottom: none;
+    }
+
+
+
+    .header .nav .links li a{
+        font-size: 5rem;
+        
+    }
+
+    .header .heading-titulo{
+        width: 80vh;
+        height: 40vh;
+        left: 30px;
+    }
+    
+    .header .heading-titulo h1{
+        
+        font-size: 5.5rem;
+    }
+
+    .section-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-1 .image-section{
+        display: block;
+        position: relative;
+        width: 80%;
+        left: 15rem;
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-1 .image-section img{
+        width: 100%;
+    }
+
+    .section-1 .article{
+        left: 80px;
+        
+    }
+    .section-1 .article h1{
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .section-1 .article p{
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        font-size: 3.5rem;
+    }
+
+    .section-2 .titles-btn{
+        display: block;
+        position: absolute;
+    }
+
+    .section-2 .titles-btn h1{
+       margin-top: -100px;
+    }
+
+    .section-2 .titles-btn button{
+        width: 50%;
+        margin-left: 250px;
+        margin-top: 365%;
+    }
+    
+
+    .footer{
+        height: 800px;
+        background: #000;
+        margin-top: 200px;
+        border: 2px solid rgb(77, 33, 33);
+    }
+    
+    .footer .footer-container{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .footer .footer-container .image-logo{
+        position: absolute;
+        top: 4rem;
+        left: 35rem;
+    }
+    
+    
+    .footer .footer-container .nav .links{
+        position: absolute;
+        left: 15rem;
+        top: 18em;
+        
+    }
+    
+    .footer .footer-container .nav .links a{
+        color: #fff;
+        font-size: 3rem;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 25rem;
+    }
+    
+    .footer .footer-container .nav .links a:hover{
+        border-bottom: 1px solid #fff;
+    }
+    
+    
+    .footer .footer-container .nav .links li{
+        display: block;
+        list-style: none;
+        margin-bottom: 6rem;
+    }
+    
+    
+    .footer .footer-container .nav .redes{
+        position: absolute;
+        right: 20rem;
+        top: 68rem;
+        
+    }
+    
+    .footer .footer-container .nav .redes li{
+        display: inline-block;
+        width: 90px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    
+    .footer .footer-container .nav .redes li:hover{
+        border-bottom: none;
+    }
+    
+    .footer .footer-container .nav .redes img{
+        width: 30px;
+        height:30px;
+    }
+    
+    .footer .footer-container p{
+        display: block;
+        
+        position: absolute;
+        margin-right: 0px;
+        left: 15.5rem;
+        top: 80rem;
+        color: #fff;
+        font-size: 2.8em;
+        
+    }
+    
+    
+
+    
+}
