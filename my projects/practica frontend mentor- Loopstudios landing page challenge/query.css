@@ -373,8 +373,13 @@
     html{
         font-size: 40%;
     }
+    
     body{
-        width: 138%;
+        width: 157%;
+    }
+
+    .header{
+        width: 100vh;
     }
 
     .header .nav{
@@ -404,7 +409,7 @@
         left: 10rem;
     }
 
-    .header .heading-titulo h1{
+    .header .article h1{
         padding-top: 7rem;
         font-size: 8rem;
     }
