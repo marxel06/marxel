@@ -365,3 +365,100 @@
 
     
 }
+
+
+/* TOO BAD! D: */
+
+@media screen and (max-width:412px){
+    html{
+        font-size: 40%;
+    }
+    body{
+        width: 138%;
+    }
+
+    .header .nav{
+        width: 100vh;
+        top: 10px; 
+        right: -40px;
+        background: rgb(0, 0, 0);
+        right:-130%;
+    }
+
+    .header .nav.active{
+        width: 100vh;
+        height: 100%;
+        position: absolute;
+        top: 0px; 
+        background: rgb(0, 0, 0);
+        left: -8%;
+        
+    }
+
+    .header .nav.active li{
+        margin-bottom: 40px;
+    }
+
+    .header .heading-titulo{
+        width: 80%;
+        left: 10rem;
+    }
+
+    .header .heading-titulo h1{
+        padding-top: 7rem;
+        font-size: 8rem;
+    }
+
+    .section-1 .image-section{
+        width: 80%;
+        left: 10%;
+    }
+
+
+    .section-1 .image-section img{
+        width: 100%;
+    }
+
+    .section-1 .article{
+        left: 80px;
+        
+    }
+    .section-1 .article h1{
+        width: 70%;
+        margin-left: 10rem;
+        font-size: 5.5rem;
+        
+    }
+
+    .section-1 .article p{
+        width: 60vh;
+        font-size: 4rem;
+    }
+
+    .section-2 .box-container{
+        width: 60vh;
+       grid-template-columns: 1;
+       margin-left: 60px;
+
+    }
+
+    .section-2 .titles-btn h1{
+        width: 100%;
+    }
+
+    .section-2 .titles-btn button{
+        display: block;
+        margin-top: 1100%;
+        margin-left: 30rem;
+        padding: 20px 50px;
+        z-index: 200;
+    }
+
+    .section-2 .box{
+        display: block;
+        
+    }
+
+
+
+}
