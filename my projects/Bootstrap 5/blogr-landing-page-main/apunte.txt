@@ -1,0 +1,95 @@
+<section class="container-fluid">
+              <div class="content">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-lg-12">
+                    <div class="row">
+                      <div class="col-12 col-lg-6">
+                        <div class="d-flex justify-content-center flex-column  py-5 py-md-5">
+                          <h2 class="fw-bold mb-lg-3 text-lg-center h1  ">Introducing an extensible editor</h2>
+                          <p class="lead text-lg-center fs-5 ">Blogr features an exceedingly intuitive interface which lets you focus on one thing: Creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+                        </div>
+                        <div class="d-flex justify-content-start flex-column  py-5 py-md-5">
+                          <h2 class="fw-bold mb-lg-3 text-lg-center h1  ">Robust content management</h2>
+                          <p class="lead text-lg-center fs-5 ">Flexible content managment enables users to easily move through post, increase the usability of your blog by adding custiomized categories, section, format, or flow. With this functionality, you're in full control.</p>
+                        </div>
+                        
+                        <div class="col-12 col-lg6">
+                          <h1>sadasd</h1>
+                        </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+
+
+
+
+
+
+             <div class="d-flex justify-content-center flex-lg-column py-lg-5 px-lg-5">
+                <h1 class="fw-bold mb-lg-3 text-lg-center h1 text-light ">State of the Art Infrastructure</h1>
+                <p class="lead text-lg-center fs-5 text-light">With Reliability and speed in mind, worldwide data centers provide the backbone for ultra,fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive. </p>
+              </div>
+
+
+               <div class="d-flex align-self-center  ">
+                <img src="./images/illustration-laptop-desktop.svg" alt="" class="img-fluid">
+              </div>
+
+
+              <div class="d-flex  justify-content-center align-self-md-center flex-column-reverse">
+                <h2>Free, open, simple</h2>
+                <p>Blogr is a free and open source application</p>
+
+
+
+
+
+                <footer class="footer">
+      <div class="container">
+        <div class="content m-auto py-lg-5">
+          <div class="row d-flex align-self-lg-center">
+            <div class="col-12 col-lg-3 d-flex flex-row justify-content-center">
+              <div class="w-100">
+                <img src="./images/logo.svg" alt="" class="img">
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 align-content-center justify-content-center text-center ">
+              <h5 class="text-light">Product</h5>
+              <ul class="list-unstyled text-light">
+                <li>asdasdasd</li>
+                <li>asdasdasd</li>
+                <li>asdasdasd</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3 align-content-center justify-content-center text-center ">
+              <h5 class="text-light">Product</h5>
+              <ul class="list-unstyled text-light">
+                <li>asdasdasd</li>
+                <li>asdasdasd</li>
+                <li>asdasdasd</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3  align-content-center justify-content-center text-center ">
+              <h5 class="text-light">Product</h5>
+              <ul class="list-unstyled text-light">
+                <li>asdasdasd</li>
+                <li>asdasdasd</li>
+                <li>asdasdasd</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>

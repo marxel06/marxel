@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+}
+
