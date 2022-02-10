@@ -73,7 +73,7 @@ body {
 }
 
 .header-fondo {
-  background-image: url(../img/header-bg.jpg);
+  background-image: url("/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -96,6 +96,10 @@ body {
   color: #fff !important;
   letter-spacing: 1px;
   font-weight: 400;
+}
+
+.bg-dark{
+  background-color: #212529;
 }
 
  a {
