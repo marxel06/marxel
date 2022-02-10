@@ -73,7 +73,7 @@ body {
 }
 
 .header-fondo {
-  background-image: url("/img/header-bg.jpg");
+  background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
