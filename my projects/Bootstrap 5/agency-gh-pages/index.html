@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>Bootstrap Site</title>
+  </head>
+
+  <body>
+    <header class="container-fluid header-fondo">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container w-100 p-3">
+          <img src="img/navbar-logo.svg" class="img-logo" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-content" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portafolio">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container d-flex vh-100 justify-content-center">
+        <div class="row">
+          <div
+            class="col-12 d-flex justify-content-center align-items-center flex-column m-auto content"
+          >
+            <h2 class="h2 text-light text-center display-5 fw-bolder">
+              Welcome To Our Studio!
+            </h2>
+            <h1 class="h1 text-light text-center display-1 fw-bolder">
+              IT'S NICE TO MEET YOU
+            </h1>
+            <button
+              class="btn btn-header fs-4 align-content-center my-5 fw-bolder text-uppercase"
+            >
+              Tell me more
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="services container" id="Services">
+      <div
+        class="titulos d-flex justify-content-center flex-column align-self-center align-self-center text-center"
+      >
+        <h3 class="fw-bolder mb-3 display-5">SERVICES</h3>
+        <small class="h5 mb-5 fw-light"
+          >Lorem ipsum dolor sit amet consectetur.</small
+        >
+      </div>
+
+      <div class="row text-center card flex-row border-0 p-5">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-warning"></i>
+            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3 fw-bolder fs-3">E-Commerce</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-warning"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3 fw-bolder fs-3">Responsive Design</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-warning"></i>
+            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3 fw-bolder fs-3">Web Security</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portafolio" id="portafolio">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 d-flex align-self-lg-center justify-content-center"
+          >
+            <div
+              class="titulos d-flex justify-content-center flex-column align-self-center align-self-center text-center"
+            >
+              <h3 class="fw-bolder mb-3 display-5">SERVICES</h3>
+              <small class="h5 mb-5 fw-light"
+                >Lorem ipsum dolor sit amet consectetur.</small
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card my-3 text-center" style="width: 26rem">
+              <div class="plus text-center">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  ><img
+                    src="./img/portfolio/1.jpg"
+                    class="card-img-top img-fluid img-btn-modal-js"
+                    alt="..."
+                /></a>
+                <div
+                  class="hover d-flex align-items-center justify-content-center"
+                >
+                  <i class="fas fa-plus text-center"></i>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold h4 modal-text-card">Threads</h5>
+                <p class="card-text fw-light fs-5">Illustration</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card my-3 text-center" style="width: 26rem">
+              <div class="plus text-center">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  ><img
+                    src="./img/portfolio/2.jpg"
+                    class="card-img-top img-fluid img-btn-modal-js"
+                    alt="..."
+                /></a>
+                <div class="hover"><i class="fas fa-plus text-center"></i></div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold h4 modal-text-card">Explore</h5>
+                <p class="card-text fw-light fs-5">Graphic Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card my-3 text-center" style="width: 26rem">
+              <div class="plus text-center">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  ><img
+                    src="./img/portfolio/3.jpg"
+                    class="card-img-top img-fluid img-btn-modal-js"
+                    alt="..."
+                /></a>
+                <div class="hover"><i class="fas fa-plus text-center"></i></div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold h4 modal-text-card">Finish</h5>
+                <p class="card-text fw-light fs-5">Identity</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card my-3 text-center" style="width: 26rem">
+              <div class="plus text-center">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  ><img
+                    src="./img/portfolio/4.jpg"
+                    class="card-img-top img-fluid img-btn-modal-js"
+                    alt="..."
+                /></a>
+                <div class="hover"><i class="fas fa-plus text-center"></i></div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold h4 modal-text-card">Lines</h5>
+                <p class="card-text fw-light fs-5">Branding</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card my-3 text-center" style="width: 26rem">
+              <div class="plus text-center">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  ><img
+                    src="./img/portfolio/5.jpg"
+                    class="card-img-top img-fluid img-btn-modal-js"
+                    alt="..."
+                /></a>
+                <div class="hover"><i class="fas fa-plus text-center"></i></div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold h4 modal-text-card">Southwest</h5>
+                <p class="card-text fw-light fs-5">Website Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card my-3 text-center" style="width: 26rem">
+              <div class="plus text-center">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  ><img
+                    src="./img/portfolio/6.jpg"
+                    class="card-img-top img-fluid img-btn-modal-js"
+                    alt="..."
+                /></a>
+                <div class="hover"><i class="fas fa-plus text-center"></i></div>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold h4 modal-text-card">Window</h5>
+                <p class="card-text fw-light fs-5">Photography</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="container">
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-fullscreen modal-fullscreen-sm-down"
+              >
+                <div class="modal-content">
+                  <div class="modal-header py-2 m-3 border-0">
+                    <button
+                      type="button"
+                      class="btn-close fs-1"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div
+                    class="modal-body py-0 text-center d-flex flex-column align-self-center align-items-center"
+                  >
+                    <h3 class="h1 text-center">PROJECT NAME</h3>
+                    <p class="fs-5 fw-light text-center py-2">
+                      Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <img
+                      src=""
+                      alt=""
+                      class="img-modal-js text-center img-fluid"
+                    />
+                    <p class="fs-5 fw-light text-center py-4 textlorem">
+                      Use this area to describe your project. Lorem ipsum dolor
+                      sit amet, consectetur adipisicing elit. Est blanditiis
+                      dolorem culpa incidunt minus dignissimos deserunt repellat
+                      aperiam quasi sunt officia expedita beatae cupiditate,
+                      maiores repudiandae, nostrum, reiciendis facere nemo!
+                    </p>
+                    <h5 class="fw-bold h4 text-modal"></h5>
+                    <p class="fw-light fs-5 parrafo-modal">..</p>
+                    <button
+                      type="button"
+                      class="btn-lg btn bg-warning text-white p-3 fs-4 align-content-center fw-bolder text-uppercase"
+                      data-bs-dismiss="modal"
+                    >
+                      X close project
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row g-0">
+          <div
+            class="col-12 d-flex align-self-lg-center justify-content-center"
+          >
+            <div
+              class="titulos my-4 d-flex justify-content-center flex-column align-self-center align-self-center text-center"
+            >
+              <h3 class="fw-bolder mb-3 display-5">ABOUT</h3>
+              <small class="h5 mb-5 fw-light"
+                >Lorem ipsum dolor sit amet consectetur.</small
+              >
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-7 col-lg-7 d-flex flex-row flex-row-reverse flex-md-row justify-content-center align-items-center align-content-center"
+          >
+            <div class="textosAbout mx-auto d-flex flex-column p-3 p-lg-5">
+              <h2 class="h2 text-start text-md-end">2009-2011</h2>
+              <h3 class="h2 text-start text-md-end">Our Humble Beginnings</h3>
+              <p class="text-start text-md-end fs-6  py-1 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                dolore laudantium consectetur!
+              </p>
+            </div>
+            <div class="img-about rounded-circle mx-auto">
+              <img src="img/about/1.jpg" class="rounded-circle" alt="" />
+              <div class="linea"></div>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-7 col-lg-7 d-flex ms-auto flex-row flex-row-reverse justify-content-center align-items-center align-content-center"
+          >
+            <div class="textosAbout mx-auto d-flex flex-column p-3 p-lg-5">
+              <h2 class="h2 text-start">March 2011</h2>
+              <h3 class="h2 text-start">An Agency is Borns</h3>
+              <p class="text-start fs-6 py-1 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                dolore laudantium consectetur!
+              </p>
+            </div>
+            <div class="img-about rounded-circle mx-auto">
+              <img src="img/about/2.jpg" class="rounded-circle" alt="" />
+              <div class="linea"></div>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-7 col-lg-7  d-flex flex-row flex-row-reverse flex-md-row  flex-row justify-content-center align-items-center align-content-center"
+          >
+            <div class="textosAbout mx-auto p-3 p-lg-5">
+              <h2 class="h2 text-start text-lg-end ">December 2015</h2>
+              <h3 class="h2 text-start text-lg-end ">Transition to Full Service</h3>
+              <p class="text-start  py-1 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                dolore laudantium consectetur!
+              </p>
+            </div>
+            
+            <div class="img-about rounded-circle mx-auto">
+              <img src="img/about/3.jpg" class="rounded-circle" alt="" />
+              <div class="linea"></div>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-7 col-lg-7  d-flex ms-auto flex-row flex-row-reverse justify-content-center align-items-center align-content-center"
+          >
+            <div class="textosAbout mx-auto  p-3 p-lg-5">
+              <h2 class="h2 text-start">July 2020</h2>
+              <h3 class="h2 text-start">Phase Two Expansion</h3>
+              <p class="text-start fs-6 py-1 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                dolore laudantium consectetur!
+              </p>
+            </div>
+            <div class="img-about rounded-circle mx-auto">
+              <img src="img/about/4.jpg" class="rounded-circle" alt="" />
+              <div class="linea"></div>
+            </div>
+          </div>
+
+          <div
+            class="col-12  col-lg-7 px-4 mx-auto d-flex  flex-row  justify-content-start justify-content-md-center justify-content-lg-center align-items-center align-content-center"
+          >
+            <div class="img-about rounded-circle mx-0  py-5">
+              <div class="rounded-circle texto-circular">
+                <p class="fw-bold text-center ">
+                  Be Part
+                  <br />
+                  Of Our
+                  <br />
+                  Story!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--fin row -->
+        </div>
+      </div>
+      <!-- fin container -->
+    </section>
+
+    <section class="team overflow-hidden" id="team">
+      <div class="container">
+        <div class="row g-0">
+          <div
+            class="col-12 d-flex  align-self-lg-center justify-content-center "
+          >
+            <div
+              class="titulos my-4 d-flex justify-content-center flex-column align-self-center align-self-center text-center"
+            >
+              <h3 class="fw-bolder mb-3 display-5">OUR AMAZING TEAM</h3>
+              <small class="h5 mb-5 fw-light"
+                >Lorem ipsum dolor sit amet consectetur.</small
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div
+              class="card d-flex justify-content-center align-content-center align-items-center mx-auto border-0"
+              style="width: 18rem"
+            >
+              <img
+                src="img/team/1.jpg"
+                class="card-img-top rounded-circle img-team"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Parveen Anand</h5>
+                <p class="card-text">Lead Designer</p>
+                <ul class="nav">
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-twitter fs-4"></i></a>
+                  </li>
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-facebook fs-4"></i></a>
+                  </li>
+                
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-linkedin-in fs-4"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="col-12 col-md-12 col-lg-4">
+            <div
+              class="card d-flex justify-content-center align-content-center align-items-center mx-auto border-0"
+              style="width: 18rem"
+            >
+              <img
+                src="img/team/2.jpg"
+                class="card-img-top rounded-circle img-team"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Parveen Anand</h5>
+                <p class="card-text">Lead Designer</p>
+                <ul class="nav">
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-twitter fs-4"></i></a>
+                  </li>
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-facebook fs-4"></i></a>
+                  </li>
+                
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-linkedin-in fs-4"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div
+              class="card d-flex justify-content-center align-content-center align-items-center mx-auto border-0"
+              style="width: 18rem"
+            >
+              <img
+                src="img/team/3.jpg"
+                class="card-img-top rounded-circle img-team"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Parveen Anand</h5>
+                <p class="card-text">Lead Designer</p>
+                <ul class="nav">
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-twitter fs-4"></i></a>
+                  </li>
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-facebook fs-4"></i></a>
+                  </li>
+                
+                  <li
+                    class="nav-item mx-auto text-white bg-black rounded-circle mx-2"
+                  >
+                    <a href="" class="list-group text-light p-2"><i class="fab fa-linkedin-in fs-4"></i></a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin container-->
+    </section>
+
+    <section class="logos my-5 overflow-hidden">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-evenly align-items-center mx-auto ">
+          <div class="images-logo  mx-auto mx-lg-5">
+            <a href=""><img src="img/logos/microsoft.svg" class="card-img " alt=""></a>
+          </div>
+          <div class="images-logo  mx-auto mx-lg-5">
+            <a href=""><img src="img/logos/google.svg" class="card-img " alt=""></a>
+          </div>
+          <div class="images-logo  mx-auto mx-lg-5">
+            <a href=""><img src="img/logos/facebook.svg" class="card-img " alt=""></a>
+          </div>
+          <div class="images-logo   mx-auto mx-lg-5">
+            <a href=""><img src="img/logos/ibm.svg" class="w-50 img-ibm " alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 d-flex align-self-lg-center justify-content-center"
+          >
+            <div
+              class="titulos m-5 d-flex justify-content-center flex-column align-self-center align-self-center text-center"
+            >
+              <h3 class="fw-bolder mb-3 display-5 text-light">CONTACT US</h3>
+              <small class="h5 mb-5 fw-light text-light"
+                >Lorem ipsum dolor sit amet consectetur.</small
+              >
+            </div>
+          </div>
+
+          <div class="row mx-auto   ">
+            <div class="col-12 col-lg-6   ">
+              <form>
+                <div class="mb-3 col-12 ">
+                  <label for="nombre" class="form-label"></label>
+                  <input type="text" value="" placeholder="Your name *" required class="form-control" id="nombre">
+                </div>
+                <div class="mb-3 col-12">
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  <input type="email" value="" placeholder="Your Email *" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="mb-3 col-12">
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  <input type="tel" value="" placeholder="Your Phone *" class="form-control " required id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+                
+                
+              </form>
+            </div>
+            
+            <div class="col-12 col-lg-6 ">
+              <div class="form-floating">
+                <textarea class="form-control text-black" value placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
+                <label for="floatingTextarea"  >Your message *</label>
+              </div>
+            </div>
+            <div class="col-12 mx-auto d-flex justify-content-center">
+              <button type="submit" disabled class=" btn-contact   align-content-center my-5 fw-bolder text-uppercase ">SEND MESSAGE</button>
+            </div>
+          </div>
+
+
+
+          <!--fin row -->
+        </div>
+      </div>
+      <!-- fin container -->
+    </section>
+
+    <footer class="container p-4">
+      <div class="row d-flex flex-column flex-lg-row justify-content-center ">
+        <div class="col-12 col-lg-4 d-flex justify-content-center align-content-center align-items-center text-center mb-4 mb-lg-0">
+          <p class="text-center my-auto ">
+            Copyright © Your Website 2021
+          </p>
+        </div>
+        <div class="col-12 col-lg-4 d-flex align-content-center justify-content-center mb-4 mb-lg-0">
+          <ul class="nav">
+            <li
+                  class="nav-item mx-3 text-white bg-black rounded-circle "
+                >
+                  <a href="" class="list-group text-light p-3"><i class="fab fa-twitter  fs-5"></i></a>
+                </li>
+                <li
+                  class="nav-item mx-3 text-white bg-black rounded-circle "
+                >
+                  <a href="" class="list-group text-light p-3"><i class="fab fa-facebook  fs-5"></i></a>
+                </li>
+              
+                <li
+                  class="nav-item mx-3 text-white bg-black rounded-circle "
+                >
+                  <a href="" class="list-group text-light p-3 "><i class="fab fa-linkedin-in  fs-5"></i></a>
+                </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4     ">
+          <ul class="nav ">
+            <li class="nav-item text-center mx-auto mx-lg-0"><a href="#" class="nav-link text-black fw-light ">Privacy Policy</a></li>
+            <li class="nav-item text-center mx-auto mx-lg-0"><a href="#" class="nav-link text-black fw-light "> Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
