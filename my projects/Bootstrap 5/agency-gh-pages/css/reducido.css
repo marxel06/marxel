@@ -74,7 +74,6 @@ body {
 
 .header-fondo {
   background-image: url("/img/header-bg.jpg");
-
   height: 800px;
   background-size: cover;
   background-attachment: scroll;
@@ -94,6 +93,10 @@ body {
   color: #fff !important;
   letter-spacing: 1px;
   font-weight: 400;
+}
+
+.bg-dark{
+  background-color: #212529;
 }
 
 .a {
