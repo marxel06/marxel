@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="css/step3.css">
+
+  </head>
+  <body>
+
+    <main class="container">
+      <section class="content-left">
+        <img src="assets/images/bg-sidebar-desktop.svg" alt="" class="bg-pc">
+        <img src="assets/images/bg-sidebar-mobile.svg" alt="" class="bg-mobile">
+        <article class="container-step">
+          <div class="steps">
+            <div class="step">
+              <div class="circle ">
+                <span>1</span>
+              </div>
+              <div class="step-text">
+                <span>Step 1</span>
+                <h4>your info</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="circle ">
+                <span>2</span>
+              </div>
+              <div class="step-text">
+                <span>Step 2</span>
+                <h4>select plan</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="circle circle-active">
+                <span>3</span>
+              </div>
+              <div class="step-text">
+                <span>Step 3</span>
+                <h4>add-ons</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="circle">
+                <span>4</span>
+              </div>
+              <div class="step-text">
+                <span>Step 4</span>
+                <h4>summary</h4>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="content-right">
+        <div class="content-righ-text">
+          <h3>Pick add-ons</h3>
+          <p>Add-ons help enhance your gaming experience.</p>
+        </div>
+        <section class="container-add-ons">
+            <article class="selector-add-ons" >
+                <div class="add-ons-left">
+                    <div class="check">
+                        <input type="checkbox" class="btn-check">
+                    </div>
+                    <div class="check-text">
+                        <h3>Online service</h3>
+                        <p>Acces to multiplayer games</p>
+                    </div>
+                </div>
+                <div class="add-ons-right">
+                    <h4>+$1/mo</h4>
+                </div>
+            </article>
+            <article class="selector-add-ons">
+                <div class="add-ons-left">
+                    <div class="check">
+                        <input type="checkbox" class="btn-check">
+                    </div>
+                    <div class="check-text">
+                        <h3>Larger storage</h3>
+                        <p>Extra 1TB of cloud save</p>
+                    </div>
+                </div>
+                <div class="add-ons-right">
+                    <h4>+$2/mo</h4>
+                </div>
+            </article>
+            <article class="selector-add-ons">
+                <div class="add-ons-left">
+                    <div class="check">
+                        <input type="checkbox" class="btn-check">
+                    </div>
+                    <div class="check-text">
+                        <h3>Customizable Profile</h3>
+                        <p>Custom theme on your profile</p>
+                    </div>
+                </div>
+                <div class="add-ons-right">
+                    <h4>+$2/mo</h4>
+                </div>
+            </article>
+
+                
+            </article>
+        </section>
+
+        
+        <div class="btns-footer">
+          <div class="btn-back">
+            <a href="step2.html">Go Back</a>
+          </div>
+          <div class="btn-next">
+            <a id="btnSubmit" href="step4.html" class="btn">Next Step</a>
+          </div>
+  
+        </div>
+        
+
+      </section>
+    </main>
+
+    <script src="js/stepcheck.js"></script>
+
+
+
+    
+
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="css/step2.css">
+
+  </head>
+  <body>
+
+    <main class="container">
+      <section class="content-left">
+        <img src="assets/images/bg-sidebar-desktop.svg" alt="" class="bg-pc">
+        <img src="assets/images/bg-sidebar-mobile.svg" alt="" class="bg-mobile">
+        <article class="container-step">
+          <div class="steps">
+            <div class="step">
+              <div class="circle ">
+                <span>1</span>
+              </div>
+              <div class="step-text">
+                <span>Step 1</span>
+                <h4>your info</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="circle circle-active">
+                <span>2</span>
+              </div>
+              <div class="step-text">
+                <span>Step 2</span>
+                <h4>select plan</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="circle">
+                <span>3</span>
+              </div>
+              <div class="step-text">
+                <span>Step 3</span>
+                <h4>add-ons</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="circle">
+                <span>4</span>
+              </div>
+              <div class="step-text">
+                <span>Step 4</span>
+                <h4>summary</h4>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="content-right">
+        <div class="content-righ-text">
+          <h3>Select your plan</h3>
+          <p>You have the option of monthly or yearly billing.</p>
+        </div>
+
+        <section class="cards">
+            <article class="card">
+              <div class="imgCard">
+                <img src="assets/images/icon-arcade.svg" alt="">
+              </div>
+              <div class="textCard">
+                <h4>Arcade</h4>
+                <span class="span-price">$9/mo</span>
+                <span class="span-yearly">2 months free</span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="imgCard">
+                <img src="assets/images/icon-advanced.svg" alt="">
+              </div>
+              <div class="textCard">
+                <h4>Advanced</h4>
+                <span class="span-price">$12/mo</span>
+                <span class="span-yearly">2 months free</span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="imgCard">
+                <img src="assets/images/icon-pro.svg" alt="">
+              </div>
+              <div class="textCard">
+                <h4>Pro</h4>
+                <span class="span-price">$15/mo</span>
+                <span class="span-yearly">2 months free</span>
+              </div>
+            </article>
+        </section>
+
+        <section class="bar-selector">
+          <article class="selection">
+            <div class="monthly">
+              <h4 id="monthly">Monthly</h4>
+            </div>
+            <div class="switch" id="switch">
+              <div class="circle"></div>
+            </div>
+            <div class="yearly">
+              <h4 id="yearly">Yearly</h4>
+            </div>
+          </article>
+        </section>
+
+        
+        <div class="btns-footer">
+          <div class="btn-back">
+            <a href="index.html">Go Back</a>
+          </div>
+          <div class="btn-next">
+            <a id="btnSubmit" href="step3.html" class="btn">Next Step</a>
+          </div>
+  
+        </div>
+        
+
+      </section>
+    </main>
+
+    <script src="js/stepSwitch.js"></script>
+
+
+    
+
+  </body>
+</html>
